@@ -1,0 +1,5 @@
+table,record_count,source_record_count,record_count_difference,distinct_funds,total_aum,source_total_aum,aum_difference,counts_match,aum_matches,reconciliation_passed
+source,12,12,0,3,1400608.64,1400608.64,0.0,True,True,True
+landing,12,12,0,3,1400608.64,1400608.64,0.0,True,True,True
+mart,12,12,0,3,1400608.64,1400608.64,0.0,True,True,True
+final,12,12,0,3,1400608.64,1400608.64,0.0,True,True,True

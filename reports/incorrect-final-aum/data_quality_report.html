@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fund Valuation Data Quality Report</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 2rem; color: #222; }
+h1, h2 { color: #17365d; }
+.report-table { border-collapse: collapse; width: 100%; margin-bottom: 2rem; }
+.report-table th, .report-table td {
+    border: 1px solid #ddd; padding: 0.6rem; text-align: left;
+}
+.report-table th { background: #f1f4f8; }
+.status { font-weight: bold; }
+</style>
+</head>
+<body>
+<h1>Fund Valuation Data Quality Report</h1>
+<p>Generated: 2026-10-29 14:29:54 UTC</p>
+<p class="status">Overall status: FAIL</p>
+<p>Reconciliation layers passed: 3 of 4</p>
+<h2>Pipeline Reconciliation</h2>
+<table class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>table</th>
+      <th>record_count</th>
+      <th>source_record_count</th>
+      <th>record_count_difference</th>
+      <th>distinct_funds</th>
+      <th>total_aum</th>
+      <th>source_total_aum</th>
+      <th>aum_difference</th>
+      <th>counts_match</th>
+      <th>aum_matches</th>
+      <th>reconciliation_passed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>source</td>
+      <td>12</td>
+      <td>12</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1400608.64</td>
+      <td>1400608.64</td>
+      <td>0.0</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>landing</td>
+      <td>12</td>
+      <td>12</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1400608.64</td>
+      <td>1400608.64</td>
+      <td>0.0</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>mart</td>
+      <td>12</td>
+      <td>12</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1400608.64</td>
+      <td>1400608.64</td>
+      <td>0.0</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>final</td>
+      <td>12</td>
+      <td>12</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1400708.64</td>
+      <td>1400608.64</td>
+      <td>100.0</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Validation Errors</h2>
+<p>Total validation errors: 0</p>
+<table class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>record_id</th>
+      <th>check</th>
+      <th>error</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+</body>
+</html>

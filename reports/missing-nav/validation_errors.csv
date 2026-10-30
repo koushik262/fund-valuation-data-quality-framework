@@ -1,0 +1,2 @@
+record_id,check,error
+ROW-1,record_validation,Reported AUM and tolerance must be finite numbers
